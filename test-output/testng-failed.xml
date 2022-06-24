@@ -5,9 +5,9 @@
     <classes>
       <class name="test_cases.E2E_CreateNewAlarm">
         <methods>
-          <include name="tearDown"/>
+          <include name="TearDown"/>
+          <include name="prepare"/>
           <include name="addNewAlarm"/>
-          <include name="prepareUsedObjects"/>
         </methods>
       </class> <!-- test_cases.E2E_CreateNewAlarm -->
     </classes>

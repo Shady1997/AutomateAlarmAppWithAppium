@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-06T23:51:37 EET" name="Suite" finished-at="2022-05-06T23:51:57 EET" duration-ms="20656">
+  <suite started-at="2022-06-24T01:21:02 EET" name="Suite" finished-at="2022-06-24T01:21:24 EET" duration-ms="22075">
     <groups>
       <group name="smoke">
-        <method signature="E2E_CreateNewAlarm.addNewAlarm()[pri:1, instance:test_cases.E2E_CreateNewAlarm@bae7dc0]" name="addNewAlarm" class="test_cases.E2E_CreateNewAlarm"/>
+        <method signature="E2E_CreateNewAlarm.addNewAlarm()[pri:1, instance:test_cases.E2E_CreateNewAlarm@3f6f6701]" name="addNewAlarm" class="test_cases.E2E_CreateNewAlarm"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-05-06T23:51:37 EET" name="Add New Alarm Using Alarm Mobile APP" finished-at="2022-05-06T23:51:57 EET" duration-ms="20656">
+    <test started-at="2022-06-24T01:21:02 EET" name="Add New Alarm Using Alarm Mobile APP" finished-at="2022-06-24T01:21:24 EET" duration-ms="22075">
       <class name="test_cases.E2E_CreateNewAlarm">
-        <test-method is-config="true" signature="prepareUsedObjects()[pri:0, instance:test_cases.E2E_CreateNewAlarm@bae7dc0]" started-at="2022-05-06T23:51:37 EET" name="prepareUsedObjects" finished-at="2022-05-06T23:51:48 EET" duration-ms="11515" status="PASS">
+        <test-method is-config="true" signature="prepare()[pri:0, instance:test_cases.E2E_CreateNewAlarm@3f6f6701]" started-at="2022-06-24T01:21:02 EET" name="prepare" finished-at="2022-06-24T01:21:14 EET" duration-ms="12554" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- prepareUsedObjects -->
-        <test-method signature="addNewAlarm()[pri:1, instance:test_cases.E2E_CreateNewAlarm@bae7dc0]" started-at="2022-05-06T23:51:48 EET" name="addNewAlarm" description="add new alarm" finished-at="2022-05-06T23:51:57 EET" duration-ms="8773" status="PASS">
+        </test-method> <!-- prepare -->
+        <test-method signature="addNewAlarm()[pri:1, instance:test_cases.E2E_CreateNewAlarm@3f6f6701]" started-at="2022-06-24T01:21:14 EET" name="addNewAlarm" description="add new alarm" finished-at="2022-06-24T01:21:23 EET" duration-ms="9101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewAlarm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.E2E_CreateNewAlarm@bae7dc0]" started-at="2022-05-06T23:51:57 EET" name="tearDown" finished-at="2022-05-06T23:51:57 EET" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test_cases.E2E_CreateNewAlarm@3f6f6701]" started-at="2022-06-24T01:21:23 EET" name="TearDown" finished-at="2022-06-24T01:21:24 EET" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- TearDown -->
       </class> <!-- test_cases.E2E_CreateNewAlarm -->
     </test> <!-- Add New Alarm Using Alarm Mobile APP -->
   </suite> <!-- Suite -->
